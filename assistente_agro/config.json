@@ -1,0 +1,57 @@
+{
+    "nome": "agro",
+    "acoes": [
+        {
+            "nome": "ligar",
+            "objetos": [
+                "irrigadores",
+                "irrigador",
+                "irrigação"
+            ]
+        },
+        {
+            "nome": "desligar",
+            "objetos": [
+                "irrigadores",
+                "irrigador",
+                "irrigação"
+            ]
+        },
+        {
+            "nome": "ativar",
+            "objetos": [
+                "irrigadores",
+                "irrigador",
+                "irrigação"
+            ]
+        },
+        {
+            "nome": "desativar",
+            "objetos": [
+                "irrigadores",
+                "irrigador",
+                "irrigação"
+            ]
+        },
+        {
+            "nome": "consultar",
+            "objetos": [
+                "clima",
+                "tempo"
+            ]
+        },
+        {
+            "nome": "medir",
+            "objetos": [
+                "umidade"
+            ]
+        },
+        {
+            "nome": "verificar",
+            "objetos": [
+                "pragas",
+                "doenças"
+            ]
+        }
+    ]
+}
