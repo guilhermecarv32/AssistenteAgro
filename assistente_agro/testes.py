@@ -251,7 +251,7 @@ class TestePragas(unittest.TestCase):
         valido, _, _ = validar_comando(tokens, self.nome_do_assistente, self.acoes)
         self.assertTrue(valido) 
         
-    def testar_16_verificar_doencas(self):
+    def testar_17_verificar_doencas(self):
         tem_transcricao, transcricao = processar_audio_de_teste(VERIFICAR_DOENCAS, self.reconhecedor)
 
         self.assertTrue(tem_transcricao)
